@@ -1,0 +1,28 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+ .onsold {
+     color:red;
+     border:1px solid red;
+    border-radius: 3px;
+    padding: 12px 10px;
+    margin: 0px;
+    min-height: auto;
+    min-width: auto;
+    line-height: 0px;
+    font-weight: normal;
+    border: 1px solid #8F8F8F;
+    text-transform: uppercase;
+    background: #fff;
+    color: #000;
+    display: block;
+    font-size: 12px;
+    top: 14px;
+    letter-spacing: 2px;
+    position: absolute;
+    z-index: 99;
+    left: 3px;
+ }

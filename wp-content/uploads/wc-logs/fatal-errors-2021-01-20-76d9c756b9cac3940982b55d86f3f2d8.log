@@ -1,0 +1,30 @@
+2021-01-20T07:37:48+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /opt/lampp/htdocs/wordpress/wp-content/plugins/ced-woo-extension/public/class-ced-woo-extension-public.php:119
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): Ced_Woo_Extension_Public->woocommerce_product_stock_flash('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(42): do_action('woocommerce_bef...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(732): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part('content', 'product')
+#7 /opt in /opt/lampp/htdocs/wordpress/wp-content/plugins/ced-woo-extension/public/class-ced-woo-extension-public.php on line 119
+
+2021-01-20T07:46:37+00:00 CRITICAL Uncaught Error: Call to undefined function parseInt() in /opt/lampp/htdocs/wordpress/wp-content/plugins/ced-woo-extension/public/class-ced-woo-extension-public.php:123
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(287): Ced_Woo_Extension_Public->woocommerce_product_stock_flash('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/content-product.php(42): do_action('woocommerce_bef...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(732): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/templates/archive-product.php(70): wc_get_template_part('content', 'product')
+#7 /opt/lampp/htdocs/w in /opt/lampp/htdocs/wordpress/wp-content/plugins/ced-woo-extension/public/class-ced-woo-extension-public.php on line 123
+
+2021-01-20T09:05:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_query_var(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/plugins/ced-woo-extension/public/class-ced-woo-extension-public.php on line 128 and at least 1 expected in /opt/lampp/htdocs/wordpress/wp-includes/query.php:26
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/ced-woo-extension/public/class-ced-woo-extension-public.php(128): get_query_var()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(289): Ced_Woo_Extension_Public->myplugin_woocommerce_locate_template('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(212): WP_Hook->apply_filters('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(420): apply_filters('woocommerce_loc...', '/opt/lampp/htdo...', 'loop/orderby.ph...', 'woocommerce/')
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(301): wc_locate_template('loop/orderby.p in /opt/lampp/htdocs/wordpress/wp-includes/query.php on line 26
+
